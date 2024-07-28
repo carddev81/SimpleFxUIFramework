@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color:  #fff;
+}
+
+.button {
+    -fx-background-color: #828790, -fx-inner-border, #fff;
+    -fx-background-insets: -0.1, 1, 1;
+    -fx-background-radius: 3px, 3px, 2px;
+}
+
+.button:focused, .button:hover {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: -0.1, 1, 1, 2;
+    -fx-background-radius: 3, 3, 2, 1;
+}
+
+#button-bar {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #000;
+    -fx-border-width: 1 0 0 0;
+}
+#colored-button {
+    -fx-body-color: #fff;
+}
+
+#color-red {
+    -fx-text-fill: #ff0000;
+}
+
+#header {
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: 0 0 1 0;
+}
+
+.hyperlink:armed {
+    -fx-border-color: transparent;
+}
+
+.hyperlink:visited {
+    -fx-border-color: transparent;
+    -fx-text-fill: #800080;
+}
+

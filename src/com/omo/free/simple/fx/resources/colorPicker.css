@@ -1,0 +1,7 @@
+.color-picker {
+	-fx-background-color: transparent;
+}
+
+.color-palette {
+	-fx-background-color: -fx-base;
+}

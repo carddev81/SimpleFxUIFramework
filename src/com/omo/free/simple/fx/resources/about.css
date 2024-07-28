@@ -1,0 +1,30 @@
+.root {
+    -fx-base: #606060;
+    -fx-background-color: radial-gradient(center 50% 50%, radius 60%, #666a6b, #2b2f32);
+}
+
+.hyperlink {
+    -fx-text-fill: #e0e0e0;
+}
+
+.hyperlink:armed {
+    -fx-border-color:  #474e5d;
+}
+
+.hyperlink:focused {
+    -fx-border-color:  #474e5d;
+}
+
+.hyperlink:visited {
+    -fx-border-color: transparent;
+    -fx-text-fill: #e0e0e0;
+    -fx-underline: false;
+}
+
+.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+#hyperlink-bar {
+    -fx-background-color: #474e5d;
+}
